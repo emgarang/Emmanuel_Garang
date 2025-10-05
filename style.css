@@ -1,5 +1,5 @@
 body {
-  max-width: 720px;
+  max-width: 700px;
   margin: 0 auto; 
   font-size: 20px;
   font-weight: 200;
@@ -27,8 +27,4 @@ aside {
   padding: 0 1em;
   margin: 0 1em;
   float: right;
-}
-
-.highlight {
-  background-color: yellow;
 }
