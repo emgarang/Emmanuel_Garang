@@ -38,13 +38,13 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #050505;
+  color: blue;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #004f7a;
+  color: blueviolet;
   text-decoration: underline;
 }
 
