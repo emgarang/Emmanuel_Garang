@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
   color: #111;
 }
-h1, h2, h3 {
+h1, h2, h3,h4 {
   color: black;
   text-align: left;
   margin-top: 1em;
@@ -16,6 +16,9 @@ h1, h2, h3 {
 
 h1 { font-size: 40px; }
 h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+
 
 .highlight {
   color: #070707;
@@ -30,7 +33,7 @@ header {
   padding: 0 10px;
 }
 
-nav ul {
+nav ol {
   list-style: none;
   padding: 0;
   margin: 0;
