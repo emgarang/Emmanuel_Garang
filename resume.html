@@ -1,34 +1,136 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="stylesheet" href="style.css">
-  <title>Resume</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Resume - Emmanuel Garang</title>
 </head>
+
 <body>
   <div class="layout">
-  <!-- SIDEBAR -->
-  <aside class="sidebar">
-    <div class="profile">
-      <img src="profile-pic.jpg" alt="Emmanuel Garang" class="profile-img" />
-    </div>
-    <nav class="nav">
-      <ul>
-        <li><a id="home" href="index.html">Home</a></li>
-        <li><a id="projects" href="projects.html">Projects</a></li>
-        <li><a id="resume" href="resume.html">Resume</a></li>
-        <li><a id="contact" href="mailto:emmanuelmayol1844@gmail.com">Contact</a></li>
-      </ul>
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="profile-pic.jpg" alt="Emmanuel Garang" class="profile-img" />
+        <h2 class="name">Emmanuel Garang</h2>
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li><a id="home" href="index.html">Home</a></li>
+          <li><a id="projects" href="projects.html">Projects</a></li>
+          <li><a id="resume" href="resume.html" class="active">Resume</a></li>
+          <li><a id="contact" href="mailto:emmanuelmayol1844@gmail.com">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+
+      <section class="intro">
+        <h1 class="section-title">Resume</h1>
+        <p class="summary">
+          A versatile Software Engineer with hands-on experience in software development, networking, web design. Seeking a full-time role starting May 2026 where I can apply strong problem-solving skills and contribute to organizational success.
+        </p>
+      </section>
+
+      <section class="resume-section">
+        <h2>Education</h2>
+        <div class="item">
+          <h3> B.A. Computer Science</h3>
+          <p>Anderson University | Expected 2026</p>
+          <ul>
+            <li>Relevant Coursework: Data Structures, Algorithms, Web development, Computer Architecture</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section">
+        <h2>Experience</h2>
+        <div class="item">
+        <h3>Kardatzke Wellness Center Receptionist</h3>
+          <p><strong>Front desk Assistant</strong> — Sep 2022 - present</p>
+          <ul>
+            <li>Greeting and Welcoming Visitors</li>
+            <li>Answering Phones: Handle incoming calls, take messages, and forward calls to the appropriate person or department.</li>
+            <li>Providing Information: Answering inquiries, providing directions, and assisting with general information requests.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>Resident Conference Assistant</h3>
+          <p><strong>Anderson University</strong> — May 2022 - Aug 2025</p>
+          <ul>
+            <li>Served as a key liaison between the Conference Office and visiting groups.</li>
+            <li>Assisted with summer camp operations, attendee check-ins, and scheduling duties.</li>
+            <li>Provided support for event logistics and facility coordination.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>Team Coordinator & Field Journalist</h3>
+          <p><strong>Search For Common Ground — Juba, South Sudan</strong> Dec 2019 – Nov 2020</p>
+          <ul>
+            <li>Conducted interviews with youth and government officials for radio programs focused on education and unemployment.</li>
+            <li>Produced stories for the Youth Talk program, capturing community perspectives.</li>
+            <li>Coordinated field logistics and ensured smooth operation of media activities.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section">
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+          <li><strong>Languages:</strong> Python, JavaScript, HTML/CSS</li>
+          <li><strong>Frameworks:</strong> Flask</li>
+          <li><strong>Tools:</strong> Git, Linux, GNS3, VirtualBox</li>
+          <li><strong>Other:</strong> networking</li>
+        </ul>
+      </section>
+
+      <section class="resume-section">
+        <h2>Projects</h2>
+
+        <div class="item">
+          <h3>Front-End Budget Tracker</h3>
+          <ul>
+            <li>Designed and built a JavaScript/HTML/CSS app for managing daily budgets.</li>
+            <li>Strengthened understanding of DOM manipulation and UI state management.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>PsalmPilot</h3>
+          <ul>
+            <li>Hymn recommendation system that helps worship leaders to more effectively match hymns to scripture</li>
+            <li>Planners can choose songs that fit the sermon and service flow.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>TheMidnightCry</h3>
+          <ul>
+            <li>Designed to help my church Technical team upload Youtub videos and schedule upcoming camp meetings</li>
+            <li>Responsive layout for desktop and mobile.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+<footer class="footer">
+  <div class="footer-content">
+    <p class="copyright">© 2025 Emmanuel Garang</p>
+    <nav class="socials" aria-label="Social links">
+      <a href="https://github.com/emgarang" target="_blank" rel="noopener noreferrer">
+        <img src="github-icon.svg" alt="GitHub" width="28">
+      </a>
+      <a href="https://www.linkedin.com/in/emmanuel-garang/" target="_blank" rel="noopener noreferrer">
+        <img src="linkedin-icon.png" alt="LinkedIn" width="28">
+      </a>
+      <a href="mailto:emmanuelmayol1844@gmail.com">
+        <img src="email-icon.png" alt="Email" width="28">
+      </a>
     </nav>
-  </aside>
-
-  <main class="main-content">
-    <section class="intro">
-  <h1>Resume</h1>
-    </section>
-  </main>
-</div>
-
+  </div>
+</footer>
 </body>
 </html>
